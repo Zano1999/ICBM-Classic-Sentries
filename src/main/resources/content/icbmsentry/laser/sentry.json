@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "sentry": {
+    "name": "sentry",
+    "id": "icbmsentry:sentry.laser",
+    "gunID": "icbmsentry:sentry.laser",
+    "healthValue":70,
+    "bodyWidth": 0.8,
+    "bodyHeight": 1.4,
+    "barrelLength": 1.2,
+    "centerOffset": {
+      "y": 0.2
+    }
+  },
+  "gun": {
+    "name": "sentry",
+    "gunType": "sentry",
+    "ID": "icbmsentry:sentry.laser",
+    "ammoType": "laser",
+    "reloadType": "ENERGY",
+    "energyCost": 200,
+    "fallOff": "0.05D",
+    "rateOfFire": 60,
+    "reloadTime": 20
+  },
+  "audio:1": {
+    "key": "icbmsentry:sentry.laser.empty",
+    "domain": "armory",
+    "name": "gun.empty"
+  },
+  "effect:1": {
+    "key": "icbmsentry:sentry.laser.round.fired",
+    "effectID": "armory:gunSmoke"
+  }
+}

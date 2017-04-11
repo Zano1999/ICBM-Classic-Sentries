@@ -33,7 +33,7 @@
         "parent": "entity.sentry",
         "parts": "cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonLeft,cannonFaceLeft,cannonBarrelTopLeft,cannonBarrelBotLeft,cannonCapTopLeft,cannonCapBotLeft,cannonInFaceLeft,cannonBarrelCoupleLeft,cannonBarrelNeck",
         "rotation": {
-          "pitch": -45
+          "pitch": -35
         }
       }
     ]
