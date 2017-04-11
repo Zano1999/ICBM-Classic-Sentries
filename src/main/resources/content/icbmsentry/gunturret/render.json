@@ -1,0 +1,60 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "render": {
+    "contentID": "icbmsentry:sentry.gun",
+    "type": "gun",
+    "states": [
+      {
+        "id": "item.inventory",
+        "textureID": "icbmsentry:gunTurret"
+      },
+      {
+        "id": "entity.sentry",
+        "modelID": "icbmsentry:gunTurret",
+        "textureID": "icbmsentry:gunTurret",
+        "offset": {
+          "y": 0.2
+        }
+      },
+      {
+        "id": "entity.sentry.base",
+        "parent": "entity.sentry",
+        "parts": "Component_7,Component_8,Component_9,group_5,group_7"
+      },
+      {
+        "id": "entity.sentry.yaw",
+        "parent": "entity.sentry",
+        "parts": "BaseYawR,BaseYawRPlate,RightBrace,RightBraceF,RightBraceF2,LeftBrace,LeftBraceF,LeftBraceF2,FrontPlate,SideDecor,midPlate,AmmoBox"
+      },
+      {
+        "id": "entity.sentry.pitch",
+        "parent": "entity.sentry",
+        "parts": "rod,radioIntena,Camera,Camera2,Camera3,CannonBody,CannonBody2,CannonBody3,CannonBody4,Barrel,BarrelCap"
+      },
+      {
+        "id": "entity.sentry.yaw.empty",
+        "parent": "entity.sentry.yaw",
+        "parts": "BaseYawR,BaseYawRPlate,RightBrace,RightBraceF,RightBraceF2,LeftBrace,LeftBraceF,LeftBraceF2,FrontPlate,SideDecor,midPlate"
+      }
+    ]
+  },
+  "texture": {
+    "key": "icbmsentry:gunTurret",
+    "domain": "icbmsentry",
+    "name": "turret_gun",
+    "type": "item"
+  },
+  "texture:1": {
+    "key": "icbmsentry:gunTurret",
+    "domain": "icbmsentry",
+    "name": "gun_turret_neutral",
+    "type": "model"
+  },
+  "model": {
+    "key": "icbmsentry:gunTurret",
+    "domain": "icbmsentry",
+    "name": "turret_gun.tcn"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "ammoType": {
+    "name": "sentry",
+    "id": "icbmsentry:ammoType.sentry.20",
+    "projectileType": "bullet"
+  },
+  "ammo": {
+    "name": "sentry",
+    "id": "icbmsentry:ammo.sentry.20.basic",
+    "ammoType": "icbmsentry:ammoType.sentry.20",
+    "damage": {
+      "value": 8,
+      "type": "impact"
+    }
+  }
+}
