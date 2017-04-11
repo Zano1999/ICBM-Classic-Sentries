@@ -4,34 +4,34 @@
   },
   "sentry": {
     "name": "sentry",
-    "id": "icbmsentry:sentry.gun",
-    "gunID": "icbmsentry:sentry.gun",
-    "healthValue":50,
-    "bodyWidth": 0.6,
-    "bodyHeight": 0.9,
-    "barrelLength": 0.8,
+    "id": "icbmsentry:sentry.aa",
+    "gunID": "icbmsentry:sentry.aa",
+    "healthValue":70,
+    "bodyWidth": 0.8,
+    "bodyHeight": 1.4,
+    "barrelLength": 1.2,
     "centerOffset": {
-      "y": 0.1
+      "y": 0.2
     }
   },
   "gun": {
     "name": "sentry",
     "gunType": "sentry",
-    "ID": "icbmsentry:sentry.gun",
+    "ID": "icbmsentry:sentry.aa",
     "ammoType": "icbmsentry:ammoType.sentry.20",
     "reloadType": "HAND_FEED",
     "clipSize": 200,
     "fallOff": "0.05D",
-    "rateOfFire": 30,
+    "rateOfFire": 60,
     "reloadTime": 20
   },
   "audio:1": {
-    "key": "icbmsentry:sentry.gun.empty",
+    "key": "icbmsentry:sentry.aa.empty",
     "domain": "armory",
     "name": "gun.empty"
   },
   "effect:1": {
-    "key": "icbmsentry:sentry.gun.round.fired",
+    "key": "icbmsentry:sentry.aa.round.fired",
     "effectID": "armory:gunSmoke"
   }
 }

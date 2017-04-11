@@ -1,0 +1,58 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "render": {
+    "contentID": "icbmsentry:sentry.aa",
+    "type": "gun",
+    "states": [
+      {
+        "id": "item.inventory",
+        "textureID": "icbmsentry:aaTurret"
+      },
+      {
+        "id": "entity.sentry",
+        "modelID": "icbmsentry:aaTurret",
+        "textureID": "icbmsentry:aaTurret",
+        "offset": {
+          "y": 0.2
+        }
+      },
+      {
+        "id": "entity.sentry.base",
+        "parent": "entity.sentry",
+        "parts": "baseEdge4,base,baseEdge3,baseEdge2,baseEdge1"
+      },
+      {
+        "id": "entity.sentry.yaw",
+        "parent": "entity.sentry",
+        "parts": "rot1,body,bodyFace,bodyTop,bodyEdge,bodyArmRight,bodyBack,bodyBubble,bodyArmLeft,radarNeck,radarBase,radarBack,radarRight,radarLeft"
+      },
+      {
+        "id": "entity.sentry.pitch",
+        "parent": "entity.sentry",
+        "parts": "cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonLeft,cannonFaceLeft,cannonBarrelTopLeft,cannonBarrelBotLeft,cannonCapTopLeft,cannonCapBotLeft,cannonInFaceLeft,cannonBarrelCoupleLeft,cannonBarrelNeck",
+        "rotation": {
+          "pitch": -45
+        }
+      }
+    ]
+  },
+  "texture": {
+    "key": "icbmsentry:aaTurret",
+    "domain": "icbmsentry",
+    "name": "turret_gun",
+    "type": "item"
+  },
+  "texture:1": {
+    "key": "icbmsentry:aaTurret",
+    "domain": "icbmsentry",
+    "name": "aa_turret_neutral",
+    "type": "model"
+  },
+  "model": {
+    "key": "icbmsentry:aaTurret",
+    "domain": "icbmsentry",
+    "name": "turret_aa.tcn"
+  }
+}
