@@ -6,10 +6,11 @@
     "name": "sentry",
     "id": "icbmsentry:sentry.laser",
     "gunID": "icbmsentry:sentry.laser",
-    "healthValue":70,
+    "ammoData": "armory:laser",
+    "healthValue": 70,
     "bodyWidth": 0.8,
-    "bodyHeight": 1.4,
-    "barrelLength": 1.2,
+    "bodyHeight": 0.8,
+    "barrelLength": 1,
     "centerOffset": {
       "y": 0.2
     }
@@ -25,13 +26,12 @@
     "rateOfFire": 60,
     "reloadTime": 20
   },
-  "audio:1": {
-    "key": "icbmsentry:sentry.laser.empty",
-    "domain": "armory",
-    "name": "gun.empty"
-  },
   "effect:1": {
-    "key": "icbmsentry:sentry.laser.round.fired",
-    "effectID": "armory:gunSmoke"
+    "key": "icbmsentry:sentry.laser.round.fired.rayTrace",
+    "effectID": "laser",
+    "useEndpoint": true,
+    "nbt": {
+
+    }
   }
 }

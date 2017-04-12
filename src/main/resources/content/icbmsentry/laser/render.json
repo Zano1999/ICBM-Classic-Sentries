@@ -1,0 +1,50 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "render": {
+    "contentID": "icbmsentry:sentry.laser",
+    "type": "gun",
+    "states": [
+      {
+        "id": "item.inventory",
+        "textureID": "icbmsentry:laserTurret"
+      },
+      {
+        "id": "entity.sentry",
+        "modelID": "icbmsentry:laserTurret",
+        "textureID": "icbmsentry:laserTurret",
+        "offset": {
+          "y": 0.2
+        }
+      },
+      {
+        "id": "entity.sentry.yaw",
+        "parent": "entity.sentry",
+        "parts": "basePlate,leftMount,rightMount,"
+      },
+      {
+        "id": "entity.sentry.pitch",
+        "parent": "entity.sentry",
+        "parts": "body,bodyTop,bodyRight,bodyLeft,leftBarrel,rightBarrel,l1,l2,l3,l4,l5,r1,r2,r3,r4,r5,lCap,rCap,lEar,rEar"
+      }
+    ]
+  },
+  "texture": {
+    "key": "icbmsentry:laserTurret",
+    "domain": "icbmsentry",
+    "name": "turret_laser",
+    "type": "item"
+  },
+  "texture:1": {
+    "key": "icbmsentry:laserTurret",
+    "domain": "icbmsentry",
+    "name": "laser_turret_neutral",
+    "type": "model"
+  },
+  "model": {
+    "key": "icbmsentry:laserTurret",
+    "domain": "icbmsentry",
+    "name": "turret_laser.tcn"
+  }
+}

@@ -41,7 +41,7 @@
   "texture": {
     "key": "icbmsentry:aaTurret",
     "domain": "icbmsentry",
-    "name": "turret_gun",
+    "name": "turret_aa",
     "type": "item"
   },
   "texture:1": {
