@@ -30,6 +30,28 @@
       }
     ]
   },
+  "effects:1": {
+    "key": "icbmsentry:sentry.laser.round.fired.rayTrace",
+    "list": [
+      {
+        "key": "left",
+        "effectID": "laser",
+        "renderOffset": {
+          "x": -0.2
+        }
+      },
+      {
+        "key": "right",
+        "effectID": "laser",
+        "renderOffset": {
+          "x": 0.2
+        }
+      }
+    ],
+    "additionalEffectData": {
+      "lifeTime:int": 10
+    }
+  },
   "texture": {
     "key": "icbmsentry:laserTurret",
     "domain": "icbmsentry",

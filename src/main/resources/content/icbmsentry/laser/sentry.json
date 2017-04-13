@@ -23,15 +23,7 @@
     "reloadType": "ENERGY",
     "energyCost": 200,
     "fallOff": "0.05D",
-    "rateOfFire": 60,
-    "reloadTime": 20
-  },
-  "effect:1": {
-    "key": "icbmsentry:sentry.laser.round.fired.rayTrace",
-    "effectID": "laser",
-    "useEndpoint": true,
-    "nbt": {
-
-    }
+    "rateOfFire": -1,
+    "reloadTime": -1
   }
 }
