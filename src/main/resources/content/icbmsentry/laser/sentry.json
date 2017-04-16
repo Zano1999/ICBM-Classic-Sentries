@@ -3,7 +3,7 @@
     "name": "icbmsentry"
   },
   "sentry": {
-    "name": "sentry",
+    "name": "sentry.laser",
     "id": "icbmsentry:sentry.laser",
     "gunID": "icbmsentry:sentry.laser",
     "ammoData": "icbmsentry:laser",
@@ -12,7 +12,7 @@
     "healthValue": 70,
     "bodyWidth": 0.8,
     "bodyHeight": 0.8,
-    "barrelLength": 1,
+    "barrelLength": 1.2,
     "centerOffset": {
       "y": 0.2
     }

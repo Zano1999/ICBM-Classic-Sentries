@@ -8,7 +8,7 @@
     "states": [
       {
         "id": "item.inventory",
-        "textureID": "icbmsentry:gunTurret"
+        "textureID": "icbmsentry:gunTurretItem"
       },
       {
         "id": "entity.sentry",
@@ -41,9 +41,9 @@
     ]
   },
   "texture": {
-    "key": "icbmsentry:gunTurret",
+    "key": "icbmsentry:gunTurretItem",
     "domain": "icbmsentry",
-    "name": "turret_gun",
+    "name": "turret.gun",
     "type": "item"
   },
   "texture:1": {

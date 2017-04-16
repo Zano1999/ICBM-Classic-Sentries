@@ -8,7 +8,7 @@
     "states": [
       {
         "id": "item.inventory",
-        "textureID": "icbmsentry:laserTurret"
+        "textureID": "icbmsentry:laserTurretItem"
       },
       {
         "id": "entity.sentry",
@@ -53,9 +53,9 @@
     }
   },
   "texture": {
-    "key": "icbmsentry:laserTurret",
+    "key": "icbmsentry:laserTurretItem",
     "domain": "icbmsentry",
-    "name": "turret_laser",
+    "name": "turret.laser",
     "type": "item"
   },
   "texture:1": {

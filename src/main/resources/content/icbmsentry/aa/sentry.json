@@ -3,7 +3,7 @@
     "name": "icbmsentry"
   },
   "sentry": {
-    "name": "sentry",
+    "name": "sentry.aa",
     "id": "icbmsentry:sentry.aa",
     "gunID": "icbmsentry:sentry.aa",
     "healthValue":70,
