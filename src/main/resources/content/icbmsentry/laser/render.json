@@ -8,10 +8,12 @@
     "states": [
       {
         "id": "item.inventory",
+        "renderType": "item",
         "textureID": "icbmsentry:laserTurretItem"
       },
       {
         "id": "entity.sentry",
+        "renderType": "model",
         "modelID": "icbmsentry:laserTurret",
         "textureID": "icbmsentry:laserTurret",
         "offset": {
@@ -20,11 +22,13 @@
       },
       {
         "id": "entity.sentry.yaw",
+        "renderType": "model",
         "parent": "entity.sentry",
         "parts": "basePlate,leftMount,rightMount,"
       },
       {
         "id": "entity.sentry.pitch",
+        "renderType": "model",
         "parent": "entity.sentry",
         "parts": "body,bodyTop,bodyRight,bodyLeft,leftBarrel,rightBarrel,l1,l2,l3,l4,l5,r1,r2,r3,r4,r5,lCap,rCap,lEar,rEar"
       }

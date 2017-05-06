@@ -8,10 +8,12 @@
     "states": [
       {
         "id": "item.inventory",
+        "renderType":"item",
         "textureID": "icbmsentry:aaTurret"
       },
       {
         "id": "entity.sentry",
+        "renderType":"model",
         "modelID": "icbmsentry:aaTurret",
         "textureID": "icbmsentry:aaTurret",
         "offset": {
@@ -20,16 +22,19 @@
       },
       {
         "id": "entity.sentry.base",
+        "renderType":"model",
         "parent": "entity.sentry",
         "parts": "baseEdge4,base,baseEdge3,baseEdge2,baseEdge1"
       },
       {
         "id": "entity.sentry.yaw",
+        "renderType":"model",
         "parent": "entity.sentry",
         "parts": "rot1,body,bodyFace,bodyTop,bodyEdge,bodyArmRight,bodyBack,bodyBubble,bodyArmLeft,radarNeck,radarBase,radarBack,radarRight,radarLeft"
       },
       {
         "id": "entity.sentry.pitch",
+        "renderType":"model",
         "parent": "entity.sentry",
         "parts": "cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonLeft,cannonFaceLeft,cannonBarrelTopLeft,cannonBarrelBotLeft,cannonCapTopLeft,cannonCapBotLeft,cannonInFaceLeft,cannonBarrelCoupleLeft,cannonBarrelNeck",
         "rotation": {
