@@ -21,6 +21,7 @@
     "name": "sentry",
     "gunType": "sentry",
     "ID": "icbmsentry:sentry.laser",
+    "showInCreativeTab": false,
     "ammoType": "laser",
     "reloadType": "ENERGY",
     "fallOff": "0.05D",

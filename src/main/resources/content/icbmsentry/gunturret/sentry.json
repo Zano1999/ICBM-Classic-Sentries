@@ -18,6 +18,7 @@
     "name": "sentry",
     "gunType": "sentry",
     "ID": "icbmsentry:sentry.gun",
+    "showInCreativeTab": false,
     "ammoType": "icbmsentry:ammoType.sentry.20",
     "reloadType": "HAND_FEED",
     "clipSize": 200,
