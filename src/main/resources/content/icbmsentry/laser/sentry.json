@@ -6,7 +6,6 @@
     "name": "sentry.laser",
     "id": "icbmsentry:sentry.laser",
     "gunID": "icbmsentry:sentry.laser",
-    "ammoData": "icbmsentry:laser",
     "energyCostTick": 100,
     "energyBufferSize": 1000,
     "healthValue": 70,
@@ -23,6 +22,7 @@
     "ID": "icbmsentry:sentry.laser",
     "showInCreativeTab": false,
     "ammoType": "laser",
+    "overrideAmmo": "icbmsentry:laser",
     "reloadType": "ENERGY",
     "fallOff": "0.05D",
     "rateOfFire": -1,
@@ -33,6 +33,7 @@
     "id": "icbmsentry:laser",
     "ammoType": "laser",
     "energyCost": 200,
+    "showInCreativeTab": false,
     "damage": {
       "value": 1,
       "type": "impact"

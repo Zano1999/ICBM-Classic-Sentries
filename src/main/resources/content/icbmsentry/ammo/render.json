@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "icbmsentry"
+  },
+  "render": {
+    "contentID": "icbmsentry:ammo.sentry.20.basic",
+    "type": "item",
+    "states": [
+      {
+        "id": "item.inventory",
+        "renderType":"item",
+        "textureID": "icbmsentry:ammo.sentry.20.basic"
+      }
+    ]
+  },
+  "texture": {
+    "key": "icbmsentry:ammo.sentry.20.basic",
+    "domain": "icbmsentry",
+    "name": "bullet",
+    "type": "item"
+  }
+}

@@ -6,13 +6,29 @@
     "name": "sentry.aa",
     "id": "icbmsentry:sentry.aa",
     "gunID": "icbmsentry:sentry.aa",
-    "healthValue":70,
+    "healthValue": 70,
     "bodyWidth": 0.8,
     "bodyHeight": 1.4,
     "barrelLength": 1.2,
     "centerOffset": {
       "y": 0.2
-    }
+    },
+    "defaultTargetTypes": [
+      "flying",
+      "missile",
+      "rockets"
+    ],
+    "allowedTargetTypes": [
+      "living",
+      "players",
+      "flying",
+      "animals",
+      "tameable",
+      "mobs",
+      "npcs",
+      "missile",
+      "rockets"
+    ]
   },
   "gun": {
     "name": "sentry",

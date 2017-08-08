@@ -1,0 +1,7 @@
+sentry.icbmsentry:sentry.gun.name=Cannon Sentry
+sentry.icbmsentry:sentry.aa.name=AA Sentry
+sentry.icbmsentry:sentry.laser.name=Laser Sentry
+
+ammo.icbmsentry:sentry.name=20mm Sentry Round
+
+ammoType.icbmsentry:sentry.name=20mm Sentry Ammo

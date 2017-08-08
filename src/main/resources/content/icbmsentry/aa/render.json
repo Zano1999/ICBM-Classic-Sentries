@@ -9,7 +9,7 @@
       {
         "id": "item.inventory",
         "renderType":"item",
-        "textureID": "icbmsentry:aaTurret"
+        "textureID": "icbmsentry:aaTurretItem"
       },
       {
         "id": "entity.sentry",
@@ -44,9 +44,9 @@
     ]
   },
   "texture": {
-    "key": "icbmsentry:aaTurret",
+    "key": "icbmsentry:aaTurretItem",
     "domain": "icbmsentry",
-    "name": "turret_aa",
+    "name": "turret.aa",
     "type": "item"
   },
   "texture:1": {
