@@ -42,6 +42,26 @@
     "rateOfFire": 60,
     "reloadTime": 20
   },
+  "craftingGridRecipe": {
+    "type": "shaped",
+    "output": {
+      "item": "armory:armorySentry",
+      "meta": "icbmsentry:sentry.aa"
+    },
+    "grid": [
+      "SSS",
+      "CS ",
+      "GS "
+    ],
+    "items": {
+      "C": "ore@circuitAdvanced",
+      "S": "ore@plateSteel",
+      "G": {
+        "item": "armory:armorySentry",
+        "meta": "icbmsentry:sentry.gun"
+      }
+    }
+  },
   "audio:1": {
     "key": "icbmsentry:sentry.aa.empty",
     "domain": "armory",

@@ -15,5 +15,27 @@
       "value": 8,
       "type": "impact"
     }
+  },
+  "part": {
+    "name": "casing",
+    "id": "icbmsentry:part.bullet.casing"
+  },
+  "craftingGridRecipe": {
+    "type": "shaped",
+    "output": {
+      "item": "armory:armoryAmmo",
+      "meta": "icbmsentry:ammo.sentry.20.basic",
+      "count": 64
+    },
+    "grid": [
+      "CIC",
+      "CGC",
+      "CCC"
+    ],
+    "items": {
+      "C": "ore@ingotCopper",
+      "I": "ore@ingotIron",
+      "G": "ore@gunpowder"
+    }
   }
 }

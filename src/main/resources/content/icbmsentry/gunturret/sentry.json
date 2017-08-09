@@ -34,5 +34,20 @@
   "effect:1": {
     "key": "icbmsentry:sentry.gun.round.fired",
     "effectID": "armory:gunSmoke"
+  },
+  "craftingGridRecipe": {
+    "type": "shaped",
+    "output": {
+      "item": "armory:armorySentry",
+      "meta": "icbmsentry:sentry.gun"
+    },
+    "grid": [
+      "SSS",
+      "CS "
+    ],
+    "items": {
+      "C": "ore@circuitBasic",
+      "S": "ore@ingotSteel"
+    }
   }
 }
