@@ -1,7 +1,7 @@
 package com.builtbroken.icbmsentry;
 
-import com.builtbroken.mc.lib.mod.AbstractMod;
-import com.builtbroken.mc.lib.mod.AbstractProxy;
+import com.builtbroken.mc.framework.mod.AbstractMod;
+import com.builtbroken.mc.framework.mod.AbstractProxy;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
