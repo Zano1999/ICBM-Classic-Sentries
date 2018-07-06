@@ -23,7 +23,7 @@
     "reloadType": "HAND_FEED",
     "clipSize": 200,
     "fallOff": "0.05D",
-    "rateOfFire": 30,
+    "rateOfFire": 10,
     "reloadTime": 20
   },
   "audio:1": {
