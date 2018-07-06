@@ -8,7 +8,7 @@
     "gunID": "icbmsentry:sentry.laser",
     "energyCostTick": 100,
     "energyBufferSize": 1000,
-    "healthValue": 70,
+    "healthValue": 80,
     "bodyWidth": 0.8,
     "bodyHeight": 0.8,
     "barrelLength": 1.2,
