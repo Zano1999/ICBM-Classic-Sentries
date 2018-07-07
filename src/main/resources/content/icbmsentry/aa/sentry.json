@@ -6,7 +6,7 @@
     "name": "sentry.aa",
     "id": "icbmsentry:sentry.aa",
     "gunID": "icbmsentry:sentry.aa",
-    "healthValue": 100,
+    "health": 100,
     "bodyWidth": 0.8,
     "bodyHeight": 1.4,
     "barrelLength": 1.2,
