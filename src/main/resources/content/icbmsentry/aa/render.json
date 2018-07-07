@@ -37,8 +37,17 @@
         "renderType":"model",
         "parent": "entity.sentry",
         "parts": "cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonRight,cannonFaceRight,cannonBarrelTopRight,cannonBarrelBotRight,cannonCapTopRight,cannonCapBotRight,cannonInFaceRight,cannonBarrelCouple,cannonBarrelNeck,cannonLeft,cannonFaceLeft,cannonBarrelTopLeft,cannonBarrelBotLeft,cannonCapTopLeft,cannonCapBotLeft,cannonInFaceLeft,cannonBarrelCoupleLeft,cannonBarrelNeck",
+        "rotationOrder": [
+          "yaw",
+          "pitch"
+        ],
         "rotation": {
           "pitch": -35
+        },
+        "rotationPoint": {
+          "x": 0,
+          "y": 0.45325,
+          "z": 0
         }
       }
     ]

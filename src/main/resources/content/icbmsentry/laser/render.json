@@ -30,7 +30,16 @@
         "id": "entity.sentry.pitch",
         "renderType": "model",
         "parent": "entity.sentry",
-        "parts": "body,bodyTop,bodyRight,bodyLeft,leftBarrel,rightBarrel,l1,l2,l3,l4,l5,r1,r2,r3,r4,r5,lCap,rCap,lEar,rEar"
+        "parts": "body,bodyTop,bodyRight,bodyLeft,leftBarrel,rightBarrel,l1,l2,l3,l4,l5,r1,r2,r3,r4,r5,lCap,rCap,lEar,rEar",
+        "rotationOrder": [
+          "yaw",
+          "pitch"
+        ],
+        "rotationPoint": {
+          "x": 0,
+          "y": 0.13,
+          "z": 0
+        }
       }
     ]
   },

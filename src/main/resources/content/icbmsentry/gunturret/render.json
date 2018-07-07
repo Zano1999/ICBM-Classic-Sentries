@@ -36,7 +36,16 @@
         "id": "entity.sentry.pitch",
         "renderType": "model",
         "parent": "entity.sentry",
-        "parts": "rod,radioIntena,Camera,Camera2,Camera3,CannonBody,CannonBody2,CannonBody3,CannonBody4,Barrel,BarrelCap"
+        "parts": "rod,radioIntena,Camera,Camera2,Camera3,CannonBody,CannonBody2,CannonBody3,CannonBody4,Barrel,BarrelCap",
+        "rotationOrder": [
+          "yaw",
+          "pitch"
+        ],
+        "rotationPoint": {
+          "x": 0,
+          "y": 0.8,
+          "z": 0
+        }
       },
       {
         "id": "entity.sentry.yaw.empty",
