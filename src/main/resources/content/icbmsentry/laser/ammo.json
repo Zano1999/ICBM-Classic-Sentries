@@ -1,0 +1,21 @@
+{
+  "ammo": {
+    "name": "laser",
+    "id": "icbmsentry:laser",
+    "ammoType": "laser",
+    "energyCost": 200,
+    "showInCreativeTab": false,
+    "damage": {
+      "value": 0.1,
+      "type": "impact"
+    },
+    "damage:1": {
+      "value": 0.2,
+      "type": "thermal"
+    },
+    "damage:2": {
+      "value": 10,
+      "type": "fire"
+    }
+  }
+}

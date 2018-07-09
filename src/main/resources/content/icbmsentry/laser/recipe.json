@@ -1,0 +1,36 @@
+{
+  "craftingGridRecipe": {
+    "type": "shaped",
+    "output": {
+      "item": "armory:armorySentry",
+      "meta": "icbmsentry:sentry.laser"
+    },
+    "grid": [
+      "GGG",
+      "CS ",
+      "GS "
+    ],
+    "items": {
+      "C": "ore@circuitBasic",
+      "G": "ore@blockGlass",
+      "S": "ore@plateSteel"
+    }
+  },
+  "craftingGridRecipe:1": {
+    "type": "shaped",
+    "output": {
+      "item": "armory:armorySentry",
+      "meta": "icbmsentry:sentry.laser"
+    },
+    "grid": [
+      "GGG",
+      "CS ",
+      "GS "
+    ],
+    "items": {
+      "C": "ore@electronicCircuit",
+      "G": "ore@blockGlass",
+      "S": "ore@plateSteel"
+    }
+  }
+}

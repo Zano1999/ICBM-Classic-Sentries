@@ -1,0 +1,38 @@
+{
+  "gun": {
+    "name": "sentry",
+    "gunType": "sentry",
+    "ID": "icbmsentry:sentry.laser",
+    "showInCreativeTab": false,
+    "ammoType": "laser",
+    "overrideAmmo": "icbmsentry:laser",
+    "reloadType": "ENERGY",
+    "fallOff": "0.05D",
+    "rateOfFire": -1,
+    "reloadTime": -1,
+    "barrels": {
+      "fire": "all",
+      "damage": "all",
+      "points": [
+        {
+          "name": "one",
+          "index": 0,
+          "pos": {
+            "x": 0.2,
+            "y": 0,
+            "z": 0
+          }
+        },
+        {
+          "name": "two",
+          "index": 1,
+          "pos": {
+            "x": -0.2,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  }
+}
