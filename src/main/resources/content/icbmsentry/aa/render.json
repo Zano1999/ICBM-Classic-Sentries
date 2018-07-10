@@ -12,6 +12,11 @@
         "textureID": "icbmsentry:aaTurretItem"
       },
       {
+        "id": "item.inventory.cart",
+        "renderType":"item",
+        "textureID": "icbmsentry:aaTurretItemCart"
+      },
+      {
         "id": "entity.sentry",
         "renderType":"model",
         "modelID": "icbmsentry:aaTurret",
@@ -59,6 +64,12 @@
     "type": "item"
   },
   "texture:1": {
+    "key": "icbmsentry:aaTurretItemCart",
+    "domain": "icbmsentry",
+    "name": "turret.aa.cart",
+    "type": "item"
+  },
+  "texture:2": {
     "key": "icbmsentry:aaTurret",
     "domain": "icbmsentry",
     "name": "aa_turret_neutral",

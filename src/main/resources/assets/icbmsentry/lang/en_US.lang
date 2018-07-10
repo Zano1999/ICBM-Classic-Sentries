@@ -2,6 +2,10 @@ sentry.icbmsentry:sentry.gun.name=Cannon Sentry
 sentry.icbmsentry:sentry.aa.name=AA Sentry
 sentry.icbmsentry:sentry.laser.name=Laser Sentry
 
+sentry.icbmsentry:sentry.gun.cart.name=Cannon Sentry Minecart
+sentry.icbmsentry:sentry.aa.cart.name=AA Sentry Minecart
+sentry.icbmsentry:sentry.laser.cart.name=Laser Sentry Minecart
+
 ammo.icbmsentry:sentry.name=20mm Sentry Round
 
 ammoType.icbmsentry:sentry.name=20mm Sentry Ammo

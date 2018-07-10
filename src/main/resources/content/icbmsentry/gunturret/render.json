@@ -12,6 +12,11 @@
         "textureID": "icbmsentry:gunTurretItem"
       },
       {
+        "id": "item.inventory.cart",
+        "renderType": "item",
+        "textureID": "icbmsentry:gunTurretItemCart"
+      },
+      {
         "id": "entity.sentry",
         "renderType": "model",
         "modelID": "icbmsentry:gunTurret",
@@ -62,6 +67,12 @@
     "type": "item"
   },
   "texture:1": {
+    "key": "icbmsentry:gunTurretItemCart",
+    "domain": "icbmsentry",
+    "name": "turret.gun.cart",
+    "type": "item"
+  },
+  "texture:2": {
     "key": "icbmsentry:gunTurret",
     "domain": "icbmsentry",
     "name": "gun_turret_neutral",

@@ -12,6 +12,11 @@
         "textureID": "icbmsentry:laserTurretItem"
       },
       {
+        "id": "item.inventory.cart",
+        "renderType": "item",
+        "textureID": "icbmsentry:laserTurretItemCart"
+      },
+      {
         "id": "entity.sentry",
         "renderType": "model",
         "modelID": "icbmsentry:laserTurret",
@@ -72,6 +77,12 @@
     "type": "item"
   },
   "texture:1": {
+    "key": "icbmsentry:laserTurretItemCart",
+    "domain": "icbmsentry",
+    "name": "turret.laser.cart",
+    "type": "item"
+  },
+  "texture:2": {
     "key": "icbmsentry:laserTurret",
     "domain": "icbmsentry",
     "name": "laser_turret_neutral",
